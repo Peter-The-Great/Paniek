@@ -35,7 +35,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="pindah" thumbnail={pindah} title="Pindah">
-            A magazine about dutch indonesian culture. I was responsible for the software that collects subscription fees. 
+            A magazine about Dutch Indonesian culture. I was responsible for the software that collects subscription fees. 
           </WorkGridItem>
         </Section>
         <Section>
@@ -49,7 +49,7 @@ const Works = () => (
             title="Pixel Deluxe"
             thumbnail={pixel}
           >
-            Music recommendation app for iOS
+            A web development company i worked at for 4 months helping them develop websites for different clients using CraftCMS 
           </WorkGridItem>
         </Section>
       </SimpleGrid>

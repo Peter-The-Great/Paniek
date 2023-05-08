@@ -40,15 +40,6 @@ const Work = () => (
       </List>
 
       <WorkImage src="/images/works/halfmoon.png" alt="Inkdrop" />
-      {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
-        <iframe
-          src="https://www.youtube.com/embed/-qBavwqc_mY"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </AspectRatio> */}
     </Container>
   </Layout>
 )

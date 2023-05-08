@@ -32,7 +32,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Paniek
           </Heading>
-          <p>PolyMath ( Software Engingeer / Professional Movie critic / Jazz Fan / Video-Editor / OSINT / Games Enjoyer )</p>
+          <p>PolyMath ( Software Engingeer / Professional Movie critic (JK) / Jazz Fan / Video-Editor / OSINT / Games Enjoyer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -66,10 +66,10 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Peter The Great is a student and developer based in The hague, with a
-          passion for programming and other stuff. I am currently studying at the Hague University of Applied Sciences.
+          Paniek a student and developer based in The hague, with a
+          passion for programming and other stuff. I am currently studying at The Hague University of Applied Sciences (THUAS).
           My hobbies are playing video games, making content for youtube, piano, developing software, OSINT and more importantly, learning new things.
-          I Like to make content to not only improve my editing skils,
+          I like to make content to not only improve my editing skills,
           but also to work on my writing &quot;
           <Link
             as={NextLink}
