@@ -17,7 +17,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.1}>
-          <WorkGridItem id="glr" thumbnail={glr} title="GLR Stage Website">
+          <WorkGridItem id="glr" alt="GLR Stage Website" thumbnail={glr} title="GLR Stage Website">
             This is an application i made with a few other student in order to make the process of finding a intership easier for students.
             Its not much but it was a fun project to work on.
           </WorkGridItem>
@@ -34,12 +34,12 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="pindah" thumbnail={pindah} title="Pindah">
+          <WorkGridItem id="pindah" alt="Pindah" thumbnail={pindah} title="Pindah">
             A magazine about Dutch Indonesian culture. I was responsible for the software that collects subscription fees. 
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="halfmoon" title="Halfmoon" thumbnail={halfmoon}>
+          <WorkGridItem id="halfmoon" alt="Halfmoon" title="Halfmoon" thumbnail={halfmoon}>
             Front-end framework with a built-in dark mode and full customizability using CSS variables; great for building dashboards and tools
           </WorkGridItem>
         </Section>
@@ -47,6 +47,7 @@ const Works = () => (
           <WorkGridItem
             id="pixeldeluxe"
             title="Pixel Deluxe"
+            alt="Pixel Deluxe"
             thumbnail={pixel}
           >
             A web development company i worked at for 4 months helping them develop websites for different clients using CraftCMS 

@@ -194,8 +194,9 @@ const Home = () => (
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="https://www.youtube.com/devaslife"
+            href="https://www.youtube.com/channel/UCw8xAVInc_-Uj9tsPSQkVHA"
             thumbnail={thumbYouTube}
+            alt="YouTube"
           >
             My YouTube channel (&gt;40 subs)
           </GridItem>
