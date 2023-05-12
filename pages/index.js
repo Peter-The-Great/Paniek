@@ -87,7 +87,7 @@ const Home = () => (
             href="/works"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
-            colorScheme="teal"
+            colorScheme="purple500"
           >
             My portfolio
           </Button>
@@ -150,7 +150,7 @@ const Home = () => (
             <Link href="https://github.com/Peter-The-Great" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="purple500"
                 leftIcon={<IoLogoGithub />}
               >
                 @Peter-The-Great
@@ -161,7 +161,7 @@ const Home = () => (
             <Link href="https://discord.com/app" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="purple500"
                 leftIcon={<IoLogoDiscord />}
               >
                 @Paniek#5537
@@ -172,7 +172,7 @@ const Home = () => (
             <Link href="https://twitter.com/Pimmetje_" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="purple500"
                 leftIcon={<IoLogoTwitter />}
               >
                 @Pimmetje_
@@ -183,7 +183,7 @@ const Home = () => (
             <Link href="https://www.reddit.com/user/pimmetje_paniek" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="purple500"
                 leftIcon={<IoLogoReddit />}
               >
                 @pimmetje_paniek
@@ -207,7 +207,7 @@ const Home = () => (
             href="/posts"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
-            colorScheme="teal"
+            colorScheme="purple500"
           >
             Popular posts
           </Button>
