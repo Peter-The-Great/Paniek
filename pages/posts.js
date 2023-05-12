@@ -20,31 +20,26 @@ const Posts = () => (
           <GridItem
             title="Dutch Iceberg Image Part 1"
             thumbnail={Iceberg}
-            alt="Dutch Iceberg Image Part 1"
             href="https://www.youtube.com/watch?v=bSMZgXzC9AA"
           />
           <GridItem
             title="Dutch Iceberg Image Part 2 part 1 Yes i Know"
             thumbnail={Iceberg}
-            alt="Dutch Iceberg Image Part 2 part 1 Yes i Know"
             href="https://www.youtube.com/watch?v=9A0S8XLhjgc"
           />
           <GridItem
             title="Discovering the World's Hidden Radio Stations with Radio Garden: A Journey Through Music"
             thumbnail={radio}
-            alt="Discovering the World's Hidden Radio Stations with Radio Garden: A Journey Through Music"
             href="https://www.youtube.com/watch?v=S1R5PLA-a3w"
           />
           <GridItem
             title="The Most Underrated YouTube Animator"
             thumbnail={ani}
-            alt="The Most Underrated YouTube Animator"
             href="https://www.youtube.com/watch?v=S1R5PLA-a3w"
           />
           <GridItem
             title="My Substack is Coming Soon page."
             thumbnail={substack}
-            alt="My Substack is Coming Soon page."
             href="https://paniek.substack.com/p/coming-soon"
           />
         </SimpleGrid>

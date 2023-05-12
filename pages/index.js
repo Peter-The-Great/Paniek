@@ -196,7 +196,7 @@ const Home = () => (
           <GridItem
             href="https://www.youtube.com/channel/UCw8xAVInc_-Uj9tsPSQkVHA"
             thumbnail={thumbYouTube}
-            alt="YouTube"
+            title={"YouTube Channel"}
           >
             My YouTube channel (&gt;40 subs)
           </GridItem>
