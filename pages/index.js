@@ -86,8 +86,7 @@ const Home = () => (
             as={NextLink}
             href="/works"
             scroll={false}
-            rightIcon={<ChevronRightIcon />}
-            colorScheme="purple500"
+            rightIcon={<ChevronRightIcon />}    
           >
             My portfolio
           </Button>
