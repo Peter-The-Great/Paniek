@@ -20,7 +20,7 @@ const Posts = () => (
           <GridItem
             title="Dutch Iceberg Image Part 1"
             thumbnail={Iceberg}
-            href="https://www.youtube.com/watch?v=bSMZgXzC9AA"
+            href="https://www.youtube.com/watch?v=qoxFWlRxdOs"
           />
           <GridItem
             title="Dutch Iceberg Image Part 2 part 1 Yes i Know"
@@ -35,7 +35,7 @@ const Posts = () => (
           <GridItem
             title="The Most Underrated YouTube Animator"
             thumbnail={ani}
-            href="https://www.youtube.com/watch?v=S1R5PLA-a3w"
+            href="https://www.youtube.com/watch?v=Zkj1gUCiB4M"
           />
           <GridItem
             title="My Substack is Coming Soon page."
