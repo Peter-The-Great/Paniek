@@ -136,7 +136,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Surfing, Video Games, Jazz-fushion, Movies, Anime, Manga Playing Piano, AI, Machine Learning
+          Art, Surfing, Video Games, Jazz-fusion, Movies, Anime, Manga Playing Piano, AI, Machine Learning
         </Paragraph>
       </Section>
 
