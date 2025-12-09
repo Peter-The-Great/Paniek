@@ -21,7 +21,12 @@ import thumbYouTube from '../public/images/links/youtube.jpg'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
-  shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
+  // Forward common Next/Image props plus Chakra style props that may be
+  // passed (e.g. `borderRadius`). Ensure `fetchPriority`/`priority`
+  // are forwarded so they reach the Next `Image` component instead of
+  // becoming unknown DOM attributes which cause React warnings.
+  shouldForwardProp: prop =>
+    ['width', 'height', 'src', 'alt', 'priority', 'fetchPriority', 'borderRadius'].includes(prop)
 })
 
 const Home = () => (
