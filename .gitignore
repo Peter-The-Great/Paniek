@@ -4,3 +4,4 @@ dist
 analyze
 .vercel
 .env
+pnpm-lock.yaml
