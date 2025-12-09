@@ -2,6 +2,7 @@ import Head from 'next/head'
 import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const Main = ({ children, router }) => {
   return (
@@ -30,7 +31,7 @@ const Main = ({ children, router }) => {
         
 
         {children}
-
+        <SpeedInsights />
         <Footer />
       </Container>
     </Box>
